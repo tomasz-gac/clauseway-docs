@@ -42,8 +42,5 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Tutorials: tutorials/index.md
-  - Releases: releases/index.md
-  - Roadmap: roadmap.md
   - Blog:
       - blog/index.md

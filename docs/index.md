@@ -10,10 +10,10 @@ pinned, reproducible reads.
 
 | Part | What it is |
 | --- | --- |
-| **functional** | The substrate: fibers, fair schedulers, continuations — the machinery that keeps relational search complete and debuggable. |
-| **logic** | The engine: unification, constraint stores (finite domains, disequality, nogoods), tabling with constraint-aware answer caching, weighted inference. |
-| **pldb** | The data boundary: relations backed by in-memory or SQL sources, constraint pushdown into WHERE clauses, transactions that certify their reads. |
-| **library** | The worked example: a lending-library domain built entirely from rules — policies as relations, denials as their complement. |
+| [**functional**](https://github.com/tomasz-gac/functional) | The substrate: fibers, fair schedulers, continuations — the machinery that keeps relational search complete and debuggable. |
+| [**logic**](https://github.com/tomasz-gac/logic) | The engine: unification, constraint stores (finite domains, disequality, nogoods), tabling with constraint-aware answer caching, weighted inference. |
+| [**pldb**](https://github.com/tomasz-gac/pldb) | The data boundary: relations backed by in-memory or SQL sources, constraint pushdown into WHERE clauses, transactions that certify their reads. |
+| [**library**](https://github.com/tomasz-gac/library-test) | The worked example: a lending-library domain built entirely from rules — policies as relations, denials as their complement. |
 
 ## Why
 
@@ -26,7 +26,6 @@ that lives in a real database. The full argument is the opening essay:
 
 ## Where to start
 
-- [Tutorials](tutorials/index.md) — from your first relation to a full domain.
-- [Releases](releases/index.md) — what has shipped.
-- [Roadmap](roadmap.md) — what comes next.
-- [Blog](blog/index.md) — development notes along the way.
+- The [blog](blog/index.md) — development notes along the way, opening
+  with the essay that explains why this stack exists.
+- The repositories above — each part builds with plain Maven.
